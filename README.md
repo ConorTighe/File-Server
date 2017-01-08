@@ -8,7 +8,7 @@ The following is a file server which uses threads to allow a client to interact 
 3. Download file
 4. Quit
 
-JavaDocs can viewed in a browser explaining each class.
+JavaDocs can viewed in a browser explaining each class, all requests that pass through the server are logged in a text file on ther server-side.
 
 
 
