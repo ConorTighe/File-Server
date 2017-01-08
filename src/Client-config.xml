@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- 
+	Encapsulate Environmental Variables in an External Files
+	Encapsulation is the shielding of a user / programme from the effect of change by
+	separating the parts of a programme that vary, from the parts that stay the same. If
+	a part of a programme is highly volatile and changes all the time and we have hard-coded
+	this mutable information into a class, then we will find ourselves constantly updating
+	the class and re-publishing it to propagate the changes.
+	
+	In the case of environmental variables, it is best to move them completely out of a
+	class and into a file that can be read by the programme when it starts up. Any file format
+	can suffice, eg. an *.ini or *.props file. XML documents however, are highly structured and
+	make the parsing of such information easier than working with other formats. 
+-->
+<client-config>
+	 <server-details username="gmit-sw2016">
+	 	<serverHost>127.0.0.1</serverHost>
+	 	<serverPort>7777</serverPort>
+		<download-dir>./downloads/</download-dir>
+	</server-details>
+</client-config>
